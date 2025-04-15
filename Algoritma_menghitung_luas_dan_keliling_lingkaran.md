@@ -22,13 +22,13 @@ flowchart TD
     c{input r }
     d[k = 2 x phi x r]
     e[L = phi x r x r]
-    f[tampilan K dan L]
+    f[output K dan L]
     x@{shape: dbl-circ, label: "selesai"}
 
     a --> b
     b --> c
-    c --> d
-    c --> e
+    c ---->|Keliling| d
+    c ---->|Luas| e
     e ----> f
     d ----> f
     f --> x
