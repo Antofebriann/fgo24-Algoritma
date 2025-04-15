@@ -20,10 +20,8 @@ flowchart TD
 
     a --> b
     b --> c
-    c -->|False|d
+    c -->|False| d
     c -->|True| e
     e --> x
     d --> x
     
-
-    ```
