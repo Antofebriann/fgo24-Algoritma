@@ -33,4 +33,27 @@ flowchart TD
     e ----> f
     d ----> f
     f --> x
-    
+
+``` 
+
+# Pseudocode
+```
+// Lingkaran
+DECLARE Luas: REAL
+DECLARE Keliling: REAL
+DECLARE Type: REAL
+
+INPUT Phi
+INPUT Type
+
+IF type == Phi
+    Result <- phi x r x r
+ENDIF
+IF type == Phi
+    Result <- 2 x phi x r
+ENDIF
+
+OUTPUt "hasil konversi Luas adalah:", Result 
+Output "hasil konversi Keliling adalah:", Result
+
+```

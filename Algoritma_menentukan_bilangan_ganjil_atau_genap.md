@@ -1,3 +1,4 @@
+# Menentukan Bilangan Ganjil atau Genap
 1. mulai
 2. tentukan angka yang ingin digunakan
 3. bagikan angka tersebut dengan 2 
@@ -24,4 +25,26 @@ flowchart TD
     c -->|True| e
     e --> x
     d --> x
-    
+
+```
+# Pseudocode
+```
+// Bilangan Ganjil Genap
+DECLARE Genap: INTEGER
+DECLARE Ganjil: INTEGER
+DECLARE Type: CHAR
+
+INPUT x
+INPUT Type
+
+IF type == x
+    Result <- x % 2 = 0
+ENDIF
+IF type == x
+    Result <- x % 2 = 0
+ENDIF
+
+OUTPUt "hasil konversi x adalah:", Bilangan Genap
+Output "hasil konversi x adalah:", Bilangan Ganjil
+
+```
