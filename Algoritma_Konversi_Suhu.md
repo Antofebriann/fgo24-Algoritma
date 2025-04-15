@@ -16,13 +16,13 @@
 ```mermaid
 flowchart TD
     a@{shape: circle, label: "Mulai"}
-    b@{shape: lean-r, label: "deklarasi variabel 
-    c, k, f, r"}
-    c{masukkan suhu Celcius 'c' }
+    b@{shape: lean-r, label: "input 'c'"}
+    c{variabel 
+    k, f, r }
     d[k = c + 273]
     e[f = c * 1,8 + 32]
     f[r = c * 0,8]
-    g[tampilkan suhu dalam: kelvin, fahrenheit dan reamur]
+    g[output]
     x@{shape: dbl-circ, label: "selesai"}
 
     a --> b
@@ -36,3 +36,4 @@ flowchart TD
     g --> x
 
 ``` 
+
