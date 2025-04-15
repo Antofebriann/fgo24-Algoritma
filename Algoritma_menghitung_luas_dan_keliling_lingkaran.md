@@ -19,11 +19,11 @@
 ```mermaid
 flowchart TD
     a@{shape: circle, label: "Mulai"}
-    b@{shape: lean-r, label: "Phi = 22/7 atau 3,14"}
-    c{input r }
+    b@{shape: lean-r, label: "input Phi = 22/7 atau 3,14"}
+    c{ r }
     d[k = 2 x phi x r]
     e[L = phi x r x r]
-    f[output K dan L]
+    f[/output K dan L/]
     x@{shape: dbl-circ, label: "selesai"}
 
     a --> b
@@ -39,21 +39,19 @@ flowchart TD
 # Pseudocode
 ```
 // Lingkaran
+DECLARE r: REAL
+DECLARE Phi: REAL
 DECLARE Luas: REAL
 DECLARE Keliling: REAL
-DECLARE Type: REAL
 
-INPUT Phi
-INPUT Type
+SET Phi:3.14
 
-IF type == Phi
-    Result <- phi x r x r
-ENDIF
-IF type == Phi
-    Result <- 2 x phi x r
-ENDIF
+INPUT r
 
-OUTPUt "hasil konversi Luas adalah:", Result 
-Output "hasil konversi Keliling adalah:", Result
+SET Luas= Phi * r * r
+SET keliling= 2 * Phi * r
+
+OUTPUT "Luas Lingkaran adalah: ", Luas
+OUTPUT "Keliling Lingkaran adalah: ", Keliling
 
 ```
