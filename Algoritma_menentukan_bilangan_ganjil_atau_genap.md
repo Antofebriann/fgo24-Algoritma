@@ -6,3 +6,24 @@
 6. tampilkan bilangan genap
 7. tampilkan bilangan ganjil
 8. selesai
+
+# Flowchart
+
+```mermaid
+flowchart TD
+    a@{shape: circle, label: "Mulai"}
+    b@{shape: lean-r, label: "x"}
+    c{x % 2 = 0}
+    d[ganjil]
+    e[genap]
+    x@{shape: dbl-circ, label: "selesai"}
+
+    a --> b
+    b --> c
+    c -->|False|d
+    c -->|True| e
+    e --> x
+    d --> x
+    
+
+    ```
