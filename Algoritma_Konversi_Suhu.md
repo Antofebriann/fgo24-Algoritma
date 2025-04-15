@@ -19,7 +19,7 @@ flowchart TD
     b@{shape: lean-r, label: "deklarasi variabel 
     c, k, f, r"}
     c{masukkan suhu Celcius 'c' }
-    d[k = c + 273.15]
+    d[k = c + 273]
     e[f = c * 1,8 + 32]
     f[r = c * 0,8]
     g[tampilkan suhu dalam: kelvin, fahrenheit dan reamur]
